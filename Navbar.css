@@ -1,0 +1,49 @@
+.Navbar{
+    background-color: rgb(230, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    max-height: 80px;
+
+}
+.Lefthead{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.Options{
+    display:flex;
+    color:rgba(255, 255, 255, 0.548);
+    width:65%;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.Appname{
+    
+    color:whitesmoke;
+    padding-left: 4%;
+    font-size: 150%;
+}
+.Logout{
+    display:flex;
+    color:rgba(255, 255, 255, 0.548);
+    align-items: flex-end;
+    padding-right: 3%;
+}
+.Options div{
+    width:32%;
+}
+.Options p:hover{
+    cursor: pointer;
+    color:whitesmoke;
+    z-index: 2;
+    font-size: 105%;
+}
+.Logout p:hover{
+    cursor: pointer;
+    color:whitesmoke;
+    z-index: 2;
+    font-size: 105%;
+}

@@ -1,0 +1,26 @@
+.Orders{
+    text-align: center;
+    width:95%;
+    margin:5% 2.5% 0% 2.5%;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+thead{
+    background-color: rgb(230, 61, 61);
+    height:50px;
+    color: whitesmoke;
+}
+th{
+    border:none;
+}
+td{
+    border:none;
+}
+tr{
+    height: 40px;
+}
+tbody{
+    background-color: rgb(241, 241, 240);
+}
